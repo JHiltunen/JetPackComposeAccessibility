@@ -172,6 +172,7 @@ private fun TopicItem(itemTitle: String, selected: Boolean, onToggle: () -> Unit
                 role = Role.Checkbox
             )
             .padding(horizontal = 16.dp, vertical = 8.dp)
+            .padding(horizontal = 16.dp, vertical = 8.dp)
     ) {
         Image(
             painter = image,
